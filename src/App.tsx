@@ -4,11 +4,13 @@ const App = () => {
   return (
     <div className="app">
       <Waves
-        depth="2vh"
-        height="30vh"
+        depth="10vh"
+        height="50vh"
         bars={60}
-        startColor="lightblue"
-        endColor="wheat"
+        waveLength={20}
+        waveVelocity={0.3}
+        startColor="rgb(45, 127, 204)"
+        endColor="rgb(204, 154, 45)"
       />
     </div>
   );
